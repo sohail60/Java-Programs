@@ -1,0 +1,66 @@
+package com.company;
+
+import java.util.Scanner;
+public class NestedSwitchOldSyntax {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter empID:");
+        int id = in.nextInt();
+        System.out.println("Department:");
+        String department = in.next();
+
+        switch (id) {
+            case 1:
+                System.out.println("Md Sohail Ansari");
+                switch (department) {
+                    case "IT":
+                        System.out.println("IT Department");
+                        break;
+                    case "Management":
+                        System.out.println("Management Department");
+                        break;
+                    default:
+                        System.out.println("Invalid Department");
+                }
+                break;
+            case 2:
+                System.out.println("Person XYZ");
+                switch (department) {
+                    case "IT":
+                        System.out.println("IT Department");
+                        break;
+                    case "Management":
+                        System.out.println("Management Department");
+                        break;
+                    default:
+                        System.out.println("Invalid Department");
+                }
+                break;
+                case 3:
+                    System.out.println("Person ABC");
+                    switch (department) {
+                        case "IT":
+                            System.out.println("IT Department");
+                            break;
+                        case "Management":
+                            System.out.println("Management Department");
+                            break;
+                        default:
+                            System.out.println("Inavlid Department");
+                    }
+                    break;
+                default:
+                    System.out.println("Invalid Input");
+                    switch (department) {
+                        case "IT":
+                            System.out.println("IT Department");
+                            break;
+                        case "Management":
+                            System.out.println("Management Department");
+                            break;
+                        default:
+                            System.out.println("Invalid Department");
+                    }
+            }
+        }
+    }
