@@ -11,7 +11,7 @@ public class ithBit {
     }
 
     static boolean get(int n,int i){
-        int mask=1<<(i-1);
+        int mask=1<<(i-1);          // we are considering the right most digit to be of index 1 and not
         return ((n&mask)!=0);
         // Return true if the bit is
         // set. Otherwise return false
