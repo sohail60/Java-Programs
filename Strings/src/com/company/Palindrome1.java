@@ -1,6 +1,6 @@
 package com.company;
 
-public class Leetcode125 {
+public class Palindrome1 {
     public static void main(String[] args) {
         String s="OP";
         System.out.println(palin(s));

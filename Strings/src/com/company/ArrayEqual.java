@@ -1,6 +1,6 @@
 package com.company;
 
-public class Leetcode1162 {
+public class ArrayEqual {
     public static void main(String[] args) {
         String[] a={"Soh","ail"};
         String[] b={"Soha","il"};
