@@ -1,9 +1,8 @@
 package com.company;
 
-public class Sorted {
+public class IsArraySorted {
     public static void main(String[] args) {
         int[] arr={2,5,7,46,90};
-
         System.out.println(sorted(arr));
     }
 

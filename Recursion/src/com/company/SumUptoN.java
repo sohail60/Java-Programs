@@ -1,6 +1,6 @@
 package com.company;
 
-public class Sum {
+public class SumUptoN {
     public static void main(String[] args) {
         System.out.println(sum(5));
     }

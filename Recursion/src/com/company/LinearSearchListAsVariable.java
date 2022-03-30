@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.ArrayList;
 
-public class LinearSearchList2 {
+public class LinearSearchListAsVariable {
     public static void main(String[] args) {
         int[] arr={2,5,44,8,8,45};
         int target=8;
