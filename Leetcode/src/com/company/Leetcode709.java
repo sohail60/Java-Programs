@@ -1,6 +1,6 @@
 package com.company;
 
-public class LowerCase {
+public class Leetcode709 {
     public static void main(String[] args) {
         String s="SoHail";
         System.out.println(lowerCase(s));

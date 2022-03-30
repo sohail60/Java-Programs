@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e860f0cd-42a9-4078-9aff-c08ff8026606" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Arrays/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Arrays/IsArraySorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Arrays/LinearSearchBoolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Arrays/LinearSearchIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Arrays/LinearSearchListAsLocalVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Arrays/LinearSearchListInArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Arrays/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/CountSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/CountZeros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/NtoOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/OnetoN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/Reverse1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/Reverse2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/Reverse3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/SumUptoN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Basic/SumofDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Misc/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Misc/Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/src/com/company/Misc/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BinarySearch/BinarySearch1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BinarySearch/CeilingAndFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BinarySearch/MountainArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/BinarySearch/OrderAgnosticBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/Array2DMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/ArrayMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/ArraySearch1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/ArraySearch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/ArraySearch2D_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/ArraySearch2D_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/ArraySearch3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/ArraySearch4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/ArraySearchRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/Even.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/StringSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LinearSearch/Wealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/company.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/Array2DMax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/ArrayMin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/ArraySearch1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/ArraySearch2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/ArraySearch2D_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/ArraySearch2D_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/ArraySearch3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/ArraySearch4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/ArraySearchRange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/BinarySearch1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/CeilingAndFloor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/Even.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/InfiniteArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/MountainArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/OrderAgnosticBinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/StringSearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/Wealth.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/out/production/company/com/company/company.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/com/company/out/production/company/com/company/Inverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/com/company/out/production/company/com/company/Inverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/src/com/company/out/production/company/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/src/com/company/out/production/company/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/BinarySearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/BinarySearch1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/CeilingAndFloor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/InfiniteArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/MountainArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/OrderAgnosticBinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/company.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/out/production/company/com/company/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/out/production/company/com/company/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/out/production/company/com/company/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/out/production/company/com/company/BinarySearch1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/out/production/company/com/company/CeilingAndFloor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/out/production/company/com/company/InfiniteArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/out/production/company/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/out/production/company/com/company/MountainArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/out/production/company/com/company/OrderAgnosticBinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/src/com/company/out/production/company/com/company/company.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bitwise/src/com/company/NoOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bitwise/src/com/company/NoOfDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bitwise/src/com/company/PascalsTriangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bitwise/src/com/company/PascalsTriangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bitwise/src/com/company/PowOfTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bitwise/src/com/company/PowOfTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode1162.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode1162.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode125.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode125.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode1704.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode1704.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode1768.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode1768.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode1967.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode1967.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode20.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode2000.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode2000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode58.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode58.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode657.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode657.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode680.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode680.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode709.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leetcode/src/com/company/Leetcode709.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/LinearSearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/Array2DMax.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/ArrayMin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/ArraySearch1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/ArraySearch2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/ArraySearch2D_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/ArraySearch2D_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/ArraySearch3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/ArraySearch4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/ArraySearchRange.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/Even.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/StringSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/Wealth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinearSearch/src/com/company/company.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pattern/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pattern/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pattern/src/com/company/Pattern6_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pattern/src/com/company/Pattern6_10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pattern/src/com/company/out/production/company/com/company/Fibo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Pattern/src/com/company/out/production/company/com/company/Fibo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pattern/src/com/company/out/production/company/com/company/Pattern6_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Pattern/src/com/company/out/production/company/com/company/Pattern6_10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/CountSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/CountZeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/Fibo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/IsArraySorted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/LinearSearchBoolean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/LinearSearchIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/LinearSearchListAsVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/LinearSearchListInArgument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/NtoOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/OnetoN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/Palin1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/Pattern.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/Reverse1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/Reverse2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/Reverse3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/SelectionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/SumUptoN.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/SumofDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/out/production/company/com/company/Fibo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/out/production/company/com/company/LinearSearchListAsVariable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/src/com/company/out/production/company/com/company/Palin1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Strings/src/com/company/Palindrome1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Strings/src/com/company/Palindrome1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="276FlMIvKQ7yP24D09lCWWsFgS6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Search" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e860f0cd-42a9-4078-9aff-c08ff8026606" name="Changes" comment="" />
+      <created>1648632779845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648632779845</updated>
+    </task>
+    <servers />
+  </component>
+</project>

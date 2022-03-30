@@ -1,6 +1,6 @@
 package com.company;
 
-public class HalvesAreAlike {
+public class Leetcode1704 {
     public static void main(String[] args) {
         String s="Sohail";
         System.out.println(halvesAreAlike(s));
