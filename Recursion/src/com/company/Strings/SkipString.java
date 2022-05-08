@@ -4,11 +4,11 @@ public class SkipString {
     public static void main(String[] args) {
         String s="applesdfu";
         String target="apple";
-        String answer=stringskip(s,target);
+        String answer=stringSkip(s,target);
         System.out.println(answer);
     }
 
-    static String stringskip(String s,String target){
+    static String stringSkip(String s,String target){
         return helper(s,target,"");
     }
 

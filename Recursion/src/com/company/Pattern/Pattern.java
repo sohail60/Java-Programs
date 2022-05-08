@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Pattern;
 
 public class Pattern {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package com.company.Strings;
 
 import java.util.ArrayList;
 
-public class Subsequence {
+public class SubsequenceArrayList {
     public static void main(String[] args) {
         String s="abc";String up="";
         ArrayList<String> answer=subsequence(s, up);

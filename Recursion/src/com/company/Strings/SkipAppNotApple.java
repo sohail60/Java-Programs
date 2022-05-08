@@ -3,10 +3,10 @@ package com.company.Strings;
 public class SkipAppNotApple {
     public static void main(String[] args) {
         String s="saappe";
-        String answer=stringskip(s);
+        String answer=stringSkip(s);
         System.out.println(answer);
     }
-    static String stringskip(String s){
+    static String stringSkip(String s){
         return helper(s,"");
     }
 
