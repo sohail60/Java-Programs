@@ -7,12 +7,9 @@ public class Q8 {
         int[] arr={2,5,26,2,2,2,2};
         int ans=majority(arr);
         System.out.println(ans);
-
     }
 
-
     static int majority(int[] arr){
-
         for (int i = 0; i <=arr.length-1 ; i++) {
             int c=1;
             for (int j = i+1; j <=arr.length-1 ; j++) {
