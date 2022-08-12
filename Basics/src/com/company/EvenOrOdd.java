@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class Even_or_Odd {
+public class EvenOrOdd {
     public static void main(String[] args)
     {
         Scanner input=new Scanner(System.in);

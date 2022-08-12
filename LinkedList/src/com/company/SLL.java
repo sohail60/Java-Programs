@@ -1,11 +1,11 @@
 package com.company;
 
-public class LL {
+public class SLL {
     private Node head;
     private Node tail;
     private int size;
 
-    public LL(){
+    public SLL(){
         this.size=0;
     }
 
@@ -150,8 +150,25 @@ public class LL {
      System.out.println("END");
     }
 
-//    Delete duplicate elements
-    public void duplicate(){
+//    Questions:
+
+//    Q1: Inserting via Recursion
+    public void insertRec(int val,int index){
+        head=insertRec(val,index,head);
+    }
+
+    private Node insertRec(int val,int index,Node node){
+        if(index==0){
+            Node temp=new Node(val,node);
+            size++;
+            return temp;
+        }
+        node.next=insertRec(val,index-1,node.next);
+        return node;
+    }
+
+//   Q2: Delete duplicate elements
+    public void removeDuplicate(){
         Node node=head;
 
         while(node.next!=null){
@@ -164,9 +181,10 @@ public class LL {
         tail=node;
         tail.next=null;
     }
-//      Merge two sorted Linked List
+
+//   Q3: Merge two sorted Linked List
     public static Node mergeTwoLists(Node head1, Node head2) {
-        LL listanswer=new LL();
+        SLL listanswer=new SLL();
 
         while (head1!=null && head2!=null){
             if(head1.value>=head2.value){
@@ -190,6 +208,37 @@ public class LL {
         return listanswer.head;
     }
 
+//    Q4: Determine whether Linked List has a cycle
+    public boolean hasCycle(Node head) {
+        boolean flag=false;
+        if(head==null){
+            return false;
+        }
+        Node slow=head;
+        Node fast=head;
+
+        slow=slow.next;
+
+        if(fast.next!=null){
+            fast=fast.next.next;
+        }
+
+        while(slow != null && fast!= null){
+            if(slow == fast){
+                flag=true;
+                break;
+            }
+            slow=slow.next;
+            if(fast.next!=null){
+                fast=fast.next.next;
+            } else {
+                break;
+            }
+        }
+        return flag;
+    }
+
+//    Q5: Length of Linked List cycle
     public int cycleLength(Node head) {
         int counter=0;
         if(head==null){
@@ -213,38 +262,4 @@ public class LL {
             }
         return counter;
     }
-
-     static class Main {
-        public static void main(String args[]) {
-            LL one = new LL();
-            LL two = new LL();
-
-            one.insertLast(3);
-            one.insertLast(2);
-            one.insertLast(0);
-//            one.insertLast(2);
-            one.insertLast(-4,one.head.next);
-
-//            one.duplicate();
-//            one.display();
-
-//            two.insertLast(1);
-//            two.insertLast(5);
-//            two.insertLast(25);
-//        two.display();
-
-            System.out.println("Answer");
-            System.out.println(one.cycleLength(one.head));
-//        Node answer=mergeTwoLists(one.head, two.head);
-//            System.out.println(answer.print());
-        }
     }
-}
-
-
-
-
-
-
-
-

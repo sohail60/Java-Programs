@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Maths.Problems;
 
 import java.util.Scanner;
 
