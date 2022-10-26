@@ -16,7 +16,6 @@ public class Palindrome1 {
         }
 
         StringBuilder s2 = new StringBuilder(s1);
-
         reverse(s2);
 
         if (s1.toString().equals(s2.toString())) {

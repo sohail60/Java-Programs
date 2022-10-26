@@ -2,7 +2,7 @@ package com.company;
 
 public class Pattern16_20 {
     public static void main(String[] args) {
-        pattern17(4);
+        pattern22(5);
     }
 
 
@@ -23,4 +23,17 @@ public class Pattern16_20 {
             System.out.println();
                 }
             }
+
+    static void pattern22(int n){
+        for (int row = 1; row <=n; row++) {
+            for (int col = 1; col <= n-1; col++) {
+                if(col == 1 || col == n-1 || row == 1 || row == n){
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
         }

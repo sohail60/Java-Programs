@@ -1,32 +1,46 @@
 package com.company.MazeProblems;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 
-public class Maze3x3 {
+public class MazeNxN {
     public static void main(String[] args) {
-        String s="RRDD";
-        List<String> answer=permutation("",s);
-        System.out.println(answer);
+    int n=3;
+        ArrayList<String> pathAnswer=path("",n,n);
+        System.out.println(pathAnswer);
+        int noOfWaysAnswer=noOfWays(n,n);
+        System.out.println(noOfWaysAnswer);
+
     }
 
-    static List<String> permutation(String updated, String initial){
-        if(initial.isEmpty()){
+    static ArrayList<String> path(String str,int row, int col){
+        if(row==1 && col==1){
             ArrayList<String> list=new ArrayList<>();
-            list.add(updated);
+            list.add(str);
             return list;
         }
 
-        ArrayList<String> answer=new ArrayList<>();
-        char ch=initial.charAt(0);
+        ArrayList<String> left=new ArrayList<>();
+        ArrayList<String> right=new ArrayList<>();
 
-        for (int i = 0; i < updated.length()+1; i++) {
-            String first=updated.substring(0,i);
-            String second=updated.substring(i,updated.length());
-            answer.addAll(permutation(first+ch+second,initial.substring(1)));
+        if(row>=1 && col>=1){
+        left.addAll(path(str+"D",row-1,col));
+        right.addAll(path(str+"R",row,col-1));
         }
-        List<String> UniqueNumbers=answer.stream().distinct().collect(Collectors.toList());
-        return UniqueNumbers;
+
+        left.addAll(right);
+        return left;
+    }
+
+    static int noOfWays(int row,int col){
+        if(row== 1 || col==1){
+            return 1;
+        }
+
+        int count=0;
+        if(row>=1 && col>=1){
+            count=count+noOfWays(row-1,col);
+            count=count+noOfWays(row,col-1);
+        }
+        return count;
     }
 }

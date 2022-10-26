@@ -1,4 +1,4 @@
-package com.company.Maths;
+package com.company.Maths.ImportantQuestions;
 
 
 // A number is given as input. We have to find the trailing zeroes of its factorial.

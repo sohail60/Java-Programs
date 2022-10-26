@@ -1,4 +1,4 @@
-package com.company.Maths;
+package com.company.Maths.ImportantQuestions;
 
 import java.util.ArrayList;
 

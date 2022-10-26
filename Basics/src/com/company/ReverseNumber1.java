@@ -22,8 +22,5 @@ public class ReverseNumber1 {
             System.out.println("Palindrome");
         else
             System.out.println("Not Palindrome");
-
-
     }
-
     }

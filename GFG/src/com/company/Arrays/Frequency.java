@@ -6,7 +6,6 @@ public class Frequency {
     public static void main(String[] args) {
         int[] arr={10};
         frequency(arr);
-//        System.out.println(Arrays.toString(arr));
     }
 
     public static void frequency(int[] arr){

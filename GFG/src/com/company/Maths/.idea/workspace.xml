@@ -2,24 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c25b1ca-e31f-4ad0-8e34-4b3fb1ae949b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Arrays/MaximumDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arrays/MoveAllZeroesToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arrays/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Arrays/RotateByD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImportantQuestions/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImportantQuestions/PrimeFactors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImportantQuestions/TrailingZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/ImportantQuestions/SubsequenceArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recursion/SumUptoN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../Sorting/src/com/company/BubbleSort/BubbleSort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Arrays/src/com/company/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Arrays/src/com/company/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Arrays/src/com/company/out/production/company/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Arrays/src/com/company/out/production/company/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Arrays/src/com/company/out/production/company/com/company/Reverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Arrays/src/com/company/out/production/company/com/company/Reverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Arrays/src/com/company/out/production/company/com/company/Rough2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Arrays/src/com/company/out/production/company/com/company/rough3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../GFG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../GFG.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/ConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/ConsecutiveOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/Deletion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/Deletion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/Frequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/Frequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/Insertion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Arrays/SecondLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Arrays/SecondLargestElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factors.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimeFactors.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrimeFactors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/DigitsInFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/DigitsInFactorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/GPTerm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/GPTerm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problems/QuadEqnRoots.java" beforeDir="false" afterPath="$PROJECT_DIR$/Problems/QuadEqnRoots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrailingZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/TrailingZeroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Maths/com/company/Maths/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Maths/com/company/Maths/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/ImportantQuestions/DigitalRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/ImportantQuestions/DigitalRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Problems/DigitalRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Problems/DigitalRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Problems/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Problems/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Problems/PowerOfNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Problems/PowerUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Problems/PowerUsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Problems/Print1toN.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Problems/Print1toN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Problems/SubsequenceArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Problems/SubsequenceArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Problems/SumofDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Problems/SumofDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/DigitalRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/ImportantQuestions/DigitalRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/PowerUsingRecursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/Print1toN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/Problems/SubsequenceArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/SumofDigits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/com/company/Arrays/Deletion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/company/com/company/Arrays/Deletion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/com/company/Arrays/Frequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/company/com/company/Arrays/Frequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/com/company/Arrays/Insertion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/com/company/Arrays/SecondLargestElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/company/com/company/Arrays/SecondLargestElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/com/company/Maths/PrimeFactors.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/company/com/company/Maths/PrimeFactors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/company/com/company/Recursion/Problems/PowerOfNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode1221.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode1221.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode1528.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode1528.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode1678.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode1678.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode168.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode168.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode1773.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode1773.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode1967.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode1967.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode2011.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode2011.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode202.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode202.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode2114.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode2114.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode38.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode38.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode557.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode557.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode771.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Leetcode771.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/out/production/company/com/company/Leetcode1967.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/out/production/company/com/company/Leetcode1967.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/out/production/company/com/company/Leetcode344.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/out/production/company/com/company/Leetcode344.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/out/production/company/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Leetcode/src/com/company/out/production/company/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../LinkedList/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../LinkedList/.idea/misc.xml" afterDir="false" />
@@ -37,6 +80,8 @@
       <change beforePath="$PROJECT_DIR$/../../../../../Maths/src/com/company/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Maths/src/com/company/PrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Maths/src/com/company/SieveOfEratosthenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Maths/src/com/company/SieveOfEratosthenes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Maths/src/com/company/SquareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Maths/src/com/company/SquareRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/Basic/CountSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/Basic/CountSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/ImportantQuestions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/ImportantQuestions/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/MazeProblems/MazeBoolean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/MazeProblems/MazeBoolean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/MazeProblems/MazeBooleanPrintMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/MazeProblems/MazeBooleanPrintMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/MazeProblems/MazeDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/MazeProblems/MazeDiagonal.java" afterDir="false" />
@@ -55,6 +100,7 @@
       <change beforePath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/out/production/company/com/company/Permutation/NumberOfPermutataions.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/out/production/company/com/company/Permutation/PermutationViaArrayList.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../Recursion/src/com/company/out/production/company/com/company/Permutation/PermutationViaPrinting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Sorting/src/com/company/BubbleSort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Sorting/src/com/company/BubbleSort/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/CircularQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/CustomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/CustomQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/CustomStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/CustomStack.java" afterDir="false" />
@@ -64,6 +110,12 @@
       <change beforePath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/QueueMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/QueueMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/StackException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/StackException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/StackMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../StacksandQueues/src/com/company/StackMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Strings/src/com/company/CharsForPangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Strings/src/com/company/CharsForPangram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Strings/src/com/company/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Strings/src/com/company/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Strings/src/com/company/Palindrome1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Strings/src/com/company/Palindrome1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Strings/src/com/company/Pangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Strings/src/com/company/Pangram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Strings/src/com/company/Substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Strings/src/com/company/Substring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Strings/src/com/company/out/production/company/com/company/Palindrome1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Strings/src/com/company/out/production/company/com/company/Palindrome1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

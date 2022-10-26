@@ -1,4 +1,4 @@
-package com.company.Maths;
+package com.company.Maths.ImportantQuestions;
 
 public class GCD {
     public static void main(String[] args) {

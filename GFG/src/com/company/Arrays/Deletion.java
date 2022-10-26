@@ -6,8 +6,6 @@ public class Deletion {
     public static void main(String[] args) {
         int[] arr={3,8,15,14,7};
         int x=7;
-        int i=Integer.MAX_VALUE;
-        System.out.println(i);
         System.out.println(Arrays.toString(deletion(arr,x)));
     }
 

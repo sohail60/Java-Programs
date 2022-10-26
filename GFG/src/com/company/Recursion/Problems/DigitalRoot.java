@@ -1,3 +1,5 @@
+package com.company.Recursion.Problems;
+
 public class DigitalRoot {
     public static void main(String[] args) {
         int n=936;

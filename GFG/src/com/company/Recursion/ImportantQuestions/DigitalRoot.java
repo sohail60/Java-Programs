@@ -1,4 +1,4 @@
-package ImportantQuestions;
+package com.company.Recursion.ImportantQuestions;
 
 public class DigitalRoot {
     public static void main(String[] args) {

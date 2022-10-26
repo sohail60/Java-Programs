@@ -1,2 +1,4 @@
-package com.company.Personalized.Fundamentals;public class FirstDigit {
+package com.company.Personalized.Fundamentals;
+
+public class FirstDigit {
 }

@@ -27,7 +27,7 @@ public class Pattern1_5 {
 
     static void pattern3(int n){
         for (int row = 1; row <=n; row++) {
-            for (int col = 5; col >=row ; col--) {
+            for (int col = n; col >=row ; col--) {
                 System.out.print("*");
             }
             System.out.println();

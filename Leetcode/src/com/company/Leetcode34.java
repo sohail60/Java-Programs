@@ -8,7 +8,6 @@ public class Leetcode34 {
         int last=search(arr,target,false);
         System.out.println("First Occurence At="+first);
         System.out.println("Last Occurence At="+last);
-
     }
 
     static int search(int[] arr, int target,boolean isStart){

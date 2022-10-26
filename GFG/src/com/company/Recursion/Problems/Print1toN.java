@@ -1,3 +1,5 @@
+package com.company.Recursion.Problems;
+
 public class Print1toN {
     public static void main(String[] args) {
         print(5);

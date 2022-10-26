@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Recursion;
 
 public class SumUptoN {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package com.company.Recursion.Problems;
+
 public class SumofDigits {
     public static void main(String[] args) {
         int n=234567;

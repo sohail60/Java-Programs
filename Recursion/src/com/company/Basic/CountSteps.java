@@ -1,5 +1,7 @@
 package com.company;
 
+//  Calc no of steps taken to reduce the number to 0
+
 public class CountSteps {
     public static void main(String[] args) {
         int n=54;

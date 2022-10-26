@@ -15,7 +15,7 @@ import java.util.ArrayList;
   This type of keypad is considered for this question.
 */
 
-public class KeypadViaPrinting {
+public class Keypad {
     public static void main(String[] args) {
         String str="12";
         viaPrinting("",str);

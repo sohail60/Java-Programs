@@ -1,4 +1,4 @@
-package Problems;
+package com.company.Recursion.Problems;
 
 import java.util.ArrayList;
 

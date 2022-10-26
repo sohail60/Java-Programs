@@ -1,2 +1,4 @@
-package com.company.Arrays;public class RotateByD {
+package com.company.Arrays;
+
+public class RotateByD {
 }

@@ -18,19 +18,17 @@ public class Reverse {
         System.out.println(Arrays.toString(arr));
     }
 
-    static int[] reverse(int[] num,int start,int end){
+    static void reverse(int[] num,int start,int end){
         while(start<end) {
             swap(num, start, end);
             start++;
             end--;
         }
-        return num;
         }
 
-    static int[] swap(int[]num,int a,int b){
+    static void swap(int[]num,int a,int b){
         int temp=num[a];
         num[a]=num[b];
         num[b]=temp;
-        return num;
     }
 }

@@ -1,15 +1,15 @@
 package com.company.Permutation;
 
-import java.util.ArrayList;
-
-public class NumberOfPermutataions {
+public class NoOfPermutataions {
     public static void main(String[] args) {
         String s="abc";
-        int answer=permutation("",s);
-        System.out.println(answer);
+        int answer1=asBodyVariable("",s);
+        System.out.println(answer1);
+        int answer2=asArgument("",s,0);
+//        System.out.println(answer2);
     }
 
-    static int permutation(String updated, String initial){
+    static int asBodyVariable(String updated, String initial){
 
         if(initial.isEmpty()){
             return 1;
@@ -21,7 +21,23 @@ public class NumberOfPermutataions {
         for (int i = 0; i < updated.length()+1; i++) {
             String first=updated.substring(0,i);
             String second=updated.substring(i,updated.length());
-            count=count+permutation(first+ch+second,initial.substring(1));
+            count=count+asBodyVariable(first+ch+second,initial.substring(1));
+        }
+        return count;
+    }
+
+    static int asArgument(String updated, String initial,int count){
+        if(initial.isEmpty()){
+            count++;
+            return count;
+        }
+
+        char ch=initial.charAt(0);
+
+        for (int i = 0; i < updated.length()+1; i++) {
+            String first=updated.substring(0,i);
+            String second=updated.substring(i,updated.length());
+            count=asArgument(first+ch+second,initial.substring(1),count);
         }
         return count;
     }

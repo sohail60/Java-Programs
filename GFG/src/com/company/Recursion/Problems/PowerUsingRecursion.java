@@ -1,3 +1,5 @@
+package com.company.Recursion.Problems;
+
 public class PowerUsingRecursion {
     public static void main(String[] args) {
         int n=2,p=9;
