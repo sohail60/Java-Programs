@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class QuickSortMidPivot {
     public static void main(String[] args) {
-        int[] arr={2,7,8,1,5,3,6,4,9,};
+        int[] arr={4,1,3,9,7};
         quickSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }

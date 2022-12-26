@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class QuickSortStartPivot {
     public static void main(String[] args) {
-        int[] arr={10,16,8,12,15,6,3,9,5};
+        int[] arr={4,1,3,9,7};
         quickSort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
@@ -25,11 +25,11 @@ public class QuickSortStartPivot {
 
         while(end>start){
 
-            while(pivot>=arr[start]){
+            while(arr[start]<=pivot && start<=high-1){
                 start++;
             }
 
-            while(pivot<arr[end]){
+            while(arr[end]>pivot && end>=low){
                 end--;
             }
 
