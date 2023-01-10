@@ -2,7 +2,7 @@ package com.company;
 
 public class Leetcode2000 {
     public static void main(String[] args) {
-        String s="abcd";
+        String s="abcdzdsaf";
         char ch='z';
         System.out.println(reversePrefix(s,ch));
     }
