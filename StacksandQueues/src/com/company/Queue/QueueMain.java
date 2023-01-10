@@ -1,6 +1,6 @@
 package com.company.Queue;
 
-import com.company.Stack.StackUsingTwoQueues;
+import java.util.*;
 
 public class QueueMain {
     public static void main(String[] args) throws Exception{
@@ -20,7 +20,6 @@ public class QueueMain {
 //        dynamicQueue.insert(20);
 //        dynamicQueue.insert(25);
 //
-//        System.out.println(dynamicQueue.remove());
 //        System.out.println(dynamicQueue.remove());
 //        System.out.println(dynamicQueue.remove());
 //        System.out.println(dynamicQueue.remove());
