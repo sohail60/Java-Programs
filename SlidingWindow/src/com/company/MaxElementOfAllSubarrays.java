@@ -33,7 +33,6 @@ public class MaxElementOfAllSubarrays {
                         queue.poll();
                     }
                 }
-
                 i++;
                 j++;
             }

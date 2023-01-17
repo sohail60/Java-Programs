@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class FirstNegativeNumberInWindowK {
+public class FirstNegativeNumberInSubarrays {
     public static void main(String[] args) {
         int[] arr={-8, 2, 3, -6, 10};
         int k=2;
