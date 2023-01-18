@@ -1,4 +1,4 @@
-package com.company;
+package com.company.VariableSize;
 
 public class LargestSubarrayWithSumK {
     public static void main(String[] args) {

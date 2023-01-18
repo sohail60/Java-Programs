@@ -1,4 +1,4 @@
-package com.company;
+package com.company.FixedSize;
 
 import java.util.Deque;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.FixedSize;
 
     public class MaxSumOfSubarray {
     public static void main(String[] args) {
