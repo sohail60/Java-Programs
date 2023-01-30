@@ -12,7 +12,6 @@ public class StackUsingSingleQueue {
 
     public void push(int value){
         queue.offer(value);
-        System.out.println(queue);
 
         int i=queue.size();
         while (i>1){

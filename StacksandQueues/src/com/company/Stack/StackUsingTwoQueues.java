@@ -7,7 +7,6 @@ import java.util.Queue;
     public class StackUsingTwoQueues {
         protected Queue<Integer> queue1;
         protected Queue<Integer> queue2;
-//        protected static final int DEFAULT_SIZE=5;
 
     public StackUsingTwoQueues(){
         this.queue1=new LinkedList<>();
