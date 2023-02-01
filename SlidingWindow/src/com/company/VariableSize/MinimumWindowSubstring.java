@@ -20,6 +20,7 @@ public class MinimumWindowSubstring {
         }
 
         int size = map.size();
+
         while (j < n) {
             char ch = str.charAt(j);
             if (map.containsKey(ch)) {

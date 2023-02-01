@@ -6,11 +6,10 @@ public class NoOfPermutataions {
         int answer1=asBodyVariable("",s);
         System.out.println(answer1);
         int answer2=asArgument("",s,0);
-//        System.out.println(answer2);
+        System.out.println(answer2);
     }
 
     static int asBodyVariable(String updated, String initial){
-
         if(initial.isEmpty()){
             return 1;
         }

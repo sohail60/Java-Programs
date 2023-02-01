@@ -6,6 +6,7 @@ public class PeakIndexInMountainArray {
         int ans=peakIndex(arr);
         System.out.println(arr[ans]);
     }
+
     static int peakIndex(int[] arr) {
         int start = 0;
         int end = arr.length - 1;

@@ -7,7 +7,6 @@ public class CyclicSort {
         int[] arr={8,7,4,1,5,2,3,6};
         sort(arr);
         System.out.println(Arrays.toString(arr));
-
     }
 
     static void sort(int[] arr){
@@ -22,7 +21,6 @@ public class CyclicSort {
             }
         }
     }
-
 
     static void swap(int[] arr, int a, int b){
         int temp=arr[a];

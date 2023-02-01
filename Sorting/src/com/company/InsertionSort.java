@@ -10,7 +10,6 @@ public class InsertionSort {
 
     }
 
-
     static void insertionSort(int[] arr){
         for (int i = 0; i <= arr.length-2; i++) {
             for (int j = i+1; j >0 ; j--) {
@@ -23,7 +22,6 @@ public class InsertionSort {
             }
         }
     }
-
 
     static void swap(int[] arr,int a,int b){
         int temp=arr[a];

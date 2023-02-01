@@ -1,28 +1,28 @@
 package com.company;
 
-public class RotatedSortedArray {
+public class PeakInRotatedSortedArray {
     public static void main(String[] args) {
-        int[] arr={5, 6, 7, 8, 9, 10, 1, 2, 3};
+        int[] arr={1,2,3};
         int ans=peakIndex(arr);
-        System.out.println(arr[ans]);
+        System.out.println(ans);
     }
 
     static int peakIndex(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
 
-        while (start < end) {
+        while (start <= end) {
             int mid = start + (end - start) / 2;
-            if (arr[mid] > arr[mid+1]) {
+            if (mid <end && arr[mid] > arr[mid+1]) {
                 return mid;
             }
-            if(arr[mid]<arr[mid-1]){
+            if(mid>start && arr[mid]<arr[mid-1]){
                 return mid-1;
             }
 
-            if(mid>=start){
+            if(arr[mid]>=arr[start]){
                 start=mid+1;
-            } else if(mid<start){
+            } else if(arr[mid]<arr[start]){
                 end=mid-1;
             }
         }
