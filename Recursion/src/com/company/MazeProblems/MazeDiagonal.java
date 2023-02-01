@@ -18,28 +18,39 @@ public class MazeDiagonal {
             return list;
         }
 
-        ArrayList<String> left=new ArrayList<>();
-        ArrayList<String> right=new ArrayList<>();
-        ArrayList<String> centre=new ArrayList<>();
+        ArrayList<String> result=new ArrayList<>();
 
-        if(row>=1 && col>=1){
-            left.addAll(pathDiagonal(str+"D",row-1,col));
-            right.addAll(pathDiagonal(str+"R",row,col-1));
-            centre.addAll(pathDiagonal(str+"dg",row-1,col-1));
+        if(row>1){
+            result.addAll(pathDiagonal(str+"D",row-1,col));
         }
-        left.addAll(right);
-        left.addAll(centre);
-        return left;
+
+        if(col>1){
+            result.addAll(pathDiagonal(str+"R",row,col-1));
+        }
+
+        if(row>1 && col>1){
+            result.addAll(pathDiagonal(str+"d",row-1,col-1));
+        }
+
+        return result;
     }
 
     static int noOfWaysDiagonal(int row,int col){
-        if(row== 1 || col==1){
-            return 1;
+        if(row==1 || col==1){       // We can give && also, but we r giving || bcoz whenever we reach the
+            return 1;               // last row or column then 1 answer is guaranteed.
         }
+
         int count=0;
-        if(row>=1 && col>=1){
+
+        if(row>1){
             count=count+noOfWaysDiagonal(row-1,col);
+        }
+
+        if(col>1){
             count=count+noOfWaysDiagonal(row,col-1);
+        }
+
+        if(row>1 && col>1){
             count=count+noOfWaysDiagonal(row-1,col-1);
         }
         return count;

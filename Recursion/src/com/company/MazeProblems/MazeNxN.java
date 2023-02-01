@@ -19,26 +19,31 @@ public class MazeNxN {
             return list;
         }
 
-        ArrayList<String> left=new ArrayList<>();
-        ArrayList<String> right=new ArrayList<>();
+        ArrayList<String> result=new ArrayList<>();
 
-        if(row>=1 && col>=1){
-        left.addAll(path(str+"D",row-1,col));
-        right.addAll(path(str+"R",row,col-1));
+        if(row>1){
+            result.addAll(path(str+"D",row-1,col));
         }
 
-        left.addAll(right);
-        return left;
+        if(col>1){
+            result.addAll(path(str+"R",row,col-1));
+        }
+
+        return result;
     }
 
     static int noOfWays(int row,int col){
-        if(row== 1 || col==1){
-            return 1;
+        if(row==1 || col==1){       // We can give && also, but we r giving || bcoz whenever we reach the
+            return 1;               // last row or column then 1 answer is guaranteed.
         }
 
         int count=0;
-        if(row>=1 && col>=1){
+
+        if(row>1){
             count=count+noOfWays(row-1,col);
+        }
+
+        if(col>1){
             count=count+noOfWays(row,col-1);
         }
         return count;
