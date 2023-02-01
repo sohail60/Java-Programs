@@ -47,7 +47,7 @@ public class MazeObstructions {
             return;
         }
 
-        maze[r][c]=!maze[r][c];
+        maze[r][c]=false;
 
         if(r<maze.length-1){
             allDirectionsBooleanMatrix(str+"D",maze,r+1,c);
@@ -65,7 +65,7 @@ public class MazeObstructions {
             allDirectionsBooleanMatrix(str+"L",maze,r,c-1);
         }
 
-        maze[r][c]=!maze[r][c];
+        maze[r][c]=true;
     }
 
     static ArrayList<String> pathObstacle(String str, int row, int col){
