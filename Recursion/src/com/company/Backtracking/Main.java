@@ -1,26 +1,28 @@
 package com.company.Backtracking;
 
-public class NQueensProblem {
+import java.util.ArrayList;
+
+public class Main {
     public static void main(String[] args) {
         int n=4;
         boolean[][] board=new boolean[n][n];
-        nQueen(board,0);
+        System.out.println(nQueen(board,0));
     }
 
-    static void nQueen(boolean[][] board,int row){
+    static int nQueen(boolean[][] board,int row){
         if(row==board.length){
-            display(board);
-            System.out.println();
-            return;
+            return 1;
         }
 
+        int count=0;
         for (int col = 0; col < board.length; col++) {
             if(isSafe(board,row,col)){
                 board[row][col]=true;
-                nQueen(board,row+1);
+                count=count+nQueen(board,row+1);
                 board[row][col]=false;
             }
         }
+        return count;
     }
 
     static boolean isSafe(boolean[][] board,int r,int c){
@@ -45,19 +47,5 @@ public class NQueensProblem {
             }
         }
         return true;
-    }
-
-
-    static void display(boolean[][] board){
-        for (boolean[] row : board){
-            for (boolean element : row){
-                if(element){
-                    System.out.print("Q ");
-                } else {
-                    System.out.print("X ");
-                }
-            }
-            System.out.println();
-        }
     }
 }

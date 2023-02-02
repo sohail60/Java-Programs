@@ -1,30 +1,33 @@
 package com.company.Backtracking;
 
-public class NQueensProblem {
+import java.util.ArrayList;
+
+public class NQueenArrayList {
     public static void main(String[] args) {
         int n=4;
         boolean[][] board=new boolean[n][n];
-        nQueen(board,0);
+        System.out.println(nQueen(board,0));
     }
 
-    static void nQueen(boolean[][] board,int row){
+    static ArrayList<ArrayList<Integer>> nQueen(boolean[][] board,int row){
         if(row==board.length){
-            display(board);
-            System.out.println();
-            return;
+            ArrayList<ArrayList<Integer>> list=new ArrayList<>();
+            list.add(print(board));
+            return list;
         }
 
+        ArrayList<ArrayList<Integer>> result=new ArrayList<>();
         for (int col = 0; col < board.length; col++) {
             if(isSafe(board,row,col)){
                 board[row][col]=true;
-                nQueen(board,row+1);
+                result.addAll(nQueen(board,row+1));
                 board[row][col]=false;
             }
         }
+        return result;
     }
 
     static boolean isSafe(boolean[][] board,int r,int c){
-
         for (int i = 0; i < r; i++) {
             if(board[i][c]){
                 return false;
@@ -47,17 +50,15 @@ public class NQueensProblem {
         return true;
     }
 
-
-    static void display(boolean[][] board){
+    static ArrayList<Integer> print(boolean[][] board){
+        ArrayList<Integer> list=new ArrayList<>();
         for (boolean[] row : board){
-            for (boolean element : row){
-                if(element){
-                    System.out.print("Q ");
-                } else {
-                    System.out.print("X ");
+            for(int col=0;col<row.length;col++){
+                if(row[col]){
+                    list.add(col+1);
                 }
             }
-            System.out.println();
         }
+        return list;
     }
 }
